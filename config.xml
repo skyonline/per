@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.persik.video"
+    versionCode="10"
+    version   = "1.0.0">
+
+  <!-- versionCode is optional and Android only -->
+
+  <name>Persik</name>
+  <description>Persik video portal</description>
+  <author href="http://www.skyname.net" email="info@skyname.net">Sky Online</author>
+  <preference name="orientation" value="portrait" />
+  <gap:splash src="splash.png" />
+  <icon src="icon.png" />
+  <preference name="stay-in-webview" value="true" />
+  <preference name="ios-statusbarstyle" value="black-opaque" />
+</widget>
